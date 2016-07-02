@@ -5,11 +5,7 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 	@import "libs/skel";
 
@@ -832,6 +828,15 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	/* moments */
+
+		#moments {
+			background: url('images/overlay.png'), url('../../images/two.jpg');
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+		}
 
 /* Work */
 
